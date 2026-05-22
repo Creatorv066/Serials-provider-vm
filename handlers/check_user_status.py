@@ -21,6 +21,6 @@ async def handle_user_status(bot, cmd):
         ).days > ban_status["ban_duration"]:
             await db.remove_ban(chat_id)
         else:
-            await cmd.reply_text("You R Banned!.. Contact @creatorv_bots 😝", quote=True)
+            await cmd.reply_text("You R Banned!.. Contact @Marathi_Tv__Serials_bot 😝", quote=True)
             return
     await cmd.continue_propagation()
